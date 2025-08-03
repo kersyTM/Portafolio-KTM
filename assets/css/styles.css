@@ -1,0 +1,141 @@
+:root {
+  --sidebar-bg: #372862;
+  --principal-bg: #241C44;
+  --texto-inactivo: #86ADCC;
+  --texto-activo: #00ff55;
+  --texto-principal: #EE6CFF;
+  --texto-secundario: #45CDCF;
+  --buttons: #00FA9B;
+  --link-contacto: #D64670;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--principal-bg);
+  color: var(--texto-inactivo);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 10;
+
+}
+
+.sidebar li {
+  margin: 16px 0;
+
+}
+
+.sidebar a {
+  color: var(--texto-inactivo);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.sidebar a.active {
+  color: var(--texto-activo);
+  /* link activo */
+}
+
+.sidebar a:hover {
+  color: var(--texto-activo);
+  /* hover igual al activo */
+}
+
+.sidebar-link.active {
+  color:var(--texto-activo);
+  font-weight: bold;
+  border-left: 3px solid var(--link-contacto);
+  padding-left: 5px;
+}
+
+.Contenido {
+  margin-left: 250px;
+  padding-top: 150px;
+}
+
+.Contenido h3 {
+  color: rgb(239, 127, 8);
+  margin-bottom: 20px;
+}
+
+.Contenido a {
+  color: var(--buttons);
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.correo {
+  color: var(--buttons);
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn-custom{
+margin-top: 30px;
+ background-color: var(--buttons); 
+  color: var(--principal-bg);       
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: var(--link-contacto);
+  color: #fff;
+}
+
+.circle-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #d44a6e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.circle-icon i {
+  color: white;         
+  font-size: 30px;       
+  line-height: 2.1;
+  padding-left: 15px;
+}
+
+.circle-icon:hover {
+  background-color: #b8385a;
+  transform: scale(1.05);
+}
+.seccion {
+  scroll-margin-top: 150px;
+}
+
+.Contenido h2 {
+  color: var(--texto-principal);
+  margin-bottom: 20px;
+}
