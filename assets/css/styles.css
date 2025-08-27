@@ -33,11 +33,8 @@ body {
   position: fixed;
 }
 
-.sidebar ul {
-  list-style: none;
-  padding: 10;
+.sidebar ul { list-style: none; padding: 10px; }
 
-}
 
 .sidebar li {
   margin: 16px 0;
@@ -175,4 +172,10 @@ footer{
 .circle-icon-Portafolio:hover {
   background-color: #b8385a;
   transform: scale(1.05);
+}
+
+.badges{ display:flex; flex-wrap:wrap; gap:8px 10px }
+.badge-tech{
+  background:#2a234a; color:#d7cffb; padding:6px 10px; border-radius:10px;
+  border:1px solid rgba(255,255,255,.06); font-weight:600; font-size:13px;
 }
