@@ -179,3 +179,70 @@ footer{
   background:#2a234a; color:#d7cffb; padding:6px 10px; border-radius:10px;
   border:1px solid rgba(255,255,255,.06); font-weight:600; font-size:13px;
 }
+
+
+
+.educacion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* espacio entre logros */
+}
+
+.educacion-item {
+  border-left: 3px solid #d44a6e; /* un detalle visual */
+  padding-left: 15px;
+}
+
+.educacion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; /* alinea el h2 con el texto */
+}
+
+.educacion-header h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.duracion {
+  font-size: 0.9rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.institucion {
+  font-weight: 500;
+  margin: 5px 0 0 0;
+}
+
+.detalle {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 2px 0 0 0;
+}
+
+.btn-certificado {
+  margin-top: 30px;
+  background-color: #777;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.alerta-cv {
+  
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
