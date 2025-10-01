@@ -246,3 +246,43 @@ footer{
   gap: 8px;
 }
 
+.curso-item {
+  margin-bottom: 10px;     
+}
+
+.curso-item i {
+  color: #00ff55;        
+  margin-right: 6px;
+}
+
+.curso-item span, 
+.curso-item a {
+  font-size: 1rem;
+  color: #ccc;             
+  text-decoration: none;
+}
+
+.curso-item a:hover {
+  text-decoration: underline;
+}
+
+.contacto-item {
+  margin-bottom: 10px;     
+}
+
+
+
+.contacto-item span, 
+.contacto-item a {
+  font-size: 1rem;
+  color: #ccc;             
+  text-decoration: none;
+}
+
+.contacto-item a:hover {
+  text-decoration: underline;
+}
+
+
+
+
